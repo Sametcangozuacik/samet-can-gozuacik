@@ -4,6 +4,7 @@ import Link from 'next/link'; // Import the Link component
 import styles from './header.module.scss';
 import logo from '../../../../public/header/sametsitelogo.png';
 
+
 export default function Header() {
     return (
         <header className={styles.header}>

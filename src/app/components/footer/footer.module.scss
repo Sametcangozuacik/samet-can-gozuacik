@@ -1,0 +1,47 @@
+.footer {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footerbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerlinkbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 5px;
+}
+
+.footerlink {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.footerlink:hover {
+    color: #FF7F00;
+}
+
+.footerp {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.footercontact {
+    display: flex;
+    gap: 10px;
+}
+
+
