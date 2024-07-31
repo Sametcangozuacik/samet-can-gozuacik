@@ -1,0 +1,46 @@
+.mainsection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.mainSectionH1{
+   font-size: 2.5rem;
+   color: white;
+}
+
+.mainSectionH3{
+    font-size: 1.5rem;
+    color: #FF7F00;
+}
+
+.mainSectionP{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.mainSectionImage{
+    border: 5px solid #FF7F00;
+    border-radius: 40%;
+}
+
+.mainSectionCV{
+    margin-top: 20px;
+    color: white;
+    border: 2px solid  #FF7F00;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.mainSectionCV:hover{
+    background-color: #FF7F00;
+    color: white;
+    border: 2px solid white;
+}
