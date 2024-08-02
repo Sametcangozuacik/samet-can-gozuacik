@@ -1,0 +1,21 @@
+.mainlogo{
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainLogoLink {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out, z-index 0.3s;
+    border: 1px solid #FF7F00;
+    border-radius: 20px;
+    padding: 10px 15px;
+    box-shadow: 0 4px 8px #FF7F00;
+
+    &:hover {
+        transform: translateY(-10px);
+        z-index: 10;
+    }
+}

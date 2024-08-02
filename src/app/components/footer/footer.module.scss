@@ -13,11 +13,11 @@
 }
 
 .footerlinkbox {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     list-style-type: none;
-    gap: 5px;
+    gap: 20px;
 }
 
 .footerlink {
