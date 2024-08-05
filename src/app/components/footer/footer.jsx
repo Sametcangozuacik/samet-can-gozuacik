@@ -20,9 +20,9 @@ export default function Footer() {
                     <li><Link className={styles.footerlink} href="/contact"># İletişim</Link></li>
                 </ul>
                 <div className={styles.footercontact}>
-                    <a href="https://wa.me/+905073195505?text=<mesaj>" target="_blank"><Image src={whatsapp} width={30} height={30} /></a>
-                    <a href="https://www.linkedin.com/in/samet-can-gozuacik/" target="_blank"><Image src={linkedin} width={30} height={30} /></a>
-                    <a href="https://github.com/Sametcangozuacik" target="_blank"><Image src={github} width={30} height={30} /></a>
+                    <a className={styles.footerContactLink} href="https://wa.me/+905073195505?text=<mesaj>" target="_blank"><Image src={whatsapp} width={30} height={30} /></a>
+                    <a className={styles.footerContactLink}  href="https://www.linkedin.com/in/samet-can-gozuacik/" target="_blank"><Image src={linkedin} width={30} height={30} /></a>
+                    <a className={styles.footerContactLink} href="https://github.com/Sametcangozuacik" target="_blank"><Image src={github} width={30} height={30} /></a>
                 </div>
             </div>
             <div>

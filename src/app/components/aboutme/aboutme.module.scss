@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.aboutMeBox {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; /* Stacks content vertically on small screens */
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* Added padding for better spacing on all screens */
+
+    @media (min-width: 768px) {
+        flex-direction: row; /* Row direction on medium and larger screens */
+        justify-content: space-between;
+    }
+}
+
+.aboutMeTextBox {
+    max-width: 800px;
+    text-align: justify;
+    padding: 0 20px;
+
+    @media (max-width: 768px) {
+        max-width: 100%; /* Full width on small screens */
+        padding: 0; /* Remove padding on small screens */
+        margin-bottom: 20px; /* Add margin-bottom for spacing */
+    }
+}
+
+.aboutMeTextH4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #FF7F00;
+    font-family: "Poppins", sans-serif;
+
+    @media (max-width: 768px) {
+        font-size: 1.25rem; /* Slightly smaller font size on small screens */
+    }
+}
+
+.aboutMeTextH1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+    @media (max-width: 768px) {
+        font-size: 2rem; /* Slightly smaller font size on small screens */
+    }
+}
+
+.aboutMeTextP {
+    font-size: 1rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+    @media (max-width: 768px) {
+        font-size: 0.9rem; /* Slightly smaller font size on small screens */
+    }
+}
+
+.aboutMeImage {
+    border-radius: 30%;
+    border: 5px solid #FF7F00;
+    max-width: 100%; /* Ensure image scales with container */
+    height: auto; /* Maintain aspect ratio */
+
+    @media (max-width: 768px) {
+        max-width: 80%; /* Adjust size for smaller screens */
+        margin: 20px 0; /* Add margin for spacing on small screens */
+    }
+}
+
+.span {
+    color: #FF7F00;
+}

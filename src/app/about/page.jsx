@@ -1,11 +1,11 @@
-import Header from "../components/header/header";
-import Footer from "../components/footer/footer";
+import React from "react";
+import AboutMe from "../components/aboutme/aboutme";
 
 
 export default function About() {
   return (
     <main>
-
+      <AboutMe />
     </main>
   );
 }

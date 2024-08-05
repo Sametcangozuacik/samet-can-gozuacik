@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.abilities{
+    margin:  auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.abilitiesH2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    @media (max-width: 768px) {
+        font-size: 2rem;
+    }
+}
+
+
+.abilitiesDescription{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+
+    @media (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px;
+    }
+
+    @media (max-width: 500px) {
+        grid-template-columns: 1fr; 
+    }
+}
+
+.ability {
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    border: 1px solid #FF7F00;
+    transition: all 0.3s ease; 
+}
+
+.ability:hover {
+    z-index: 10; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.abilitiesName{
+    font-size: 1.5rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 10px;
+}

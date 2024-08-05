@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './header.module.scss';
+import moment from 'moment';
 import hamburger from '../../../../public/header/hamburgericon.png';
 import logo from '../../../../public/header/sametsitelogo.png';
 import home from '../../../../public/header/homeicon.svg';
@@ -12,6 +13,7 @@ import about from '../../../../public/header/abouticon.svg';
 import services from '../../../../public/header/servicesicon.svg';
 
 export default function Header() {
+    const [time, setTime] = useState(moment().format('ll'));
     const [menuOpen, setMenuOpen] = useState(false);
     const headerRef = useRef(null);
 
@@ -49,6 +51,7 @@ export default function Header() {
                 <li><Link className={styles.headerlink} href="/services"><Image src={services} width={24} height={24} alt="home"/>Hizmetler</Link></li>
                 <li><Link className={styles.headerlink} href="/contact"><Image src={phone} width={24} height={24} alt="home"/>İletişim</Link></li>
             </ul>
+            <div className={styles.time}>{time}</div>
         </header>
     );
 }
