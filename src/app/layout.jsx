@@ -26,6 +26,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
         <meta charSet={metadata.meta.charset} />
         <meta name="keywords" content={metadata.meta.name.keywords} />
+        <meta name="google-site-verification" content="Bu-yfke1garxb4enBfg5B6mwZdrMveZNDU4UBXS-Mto" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href="https://www.sametcangozuacik.shop" />
