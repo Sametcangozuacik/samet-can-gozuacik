@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /
+
+Sitemap: https://sametcangozuacik.shop/robots.txt
